@@ -1,12 +1,25 @@
 body {
   display: block;
+  font-size: 28px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
 .banner {
-  background-image: url(https://unsplash.com/photos/AnBKV3nlIZg);
+  background-image: url(https://images.unsplash.com/photo-1603049404411-13c2ca81a316?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1782&q=80);
   background-size: cover;
-  color: white;
+  color: white  ;
   padding: 120px 0;
+  opacity: 0.8;
+}
+
+#banner-description {
+  color: white;
+  font-size: 24px;
+}
+
+.banner > .container {
+  margin-top: 90px;
 }
 
 .container {
@@ -14,8 +27,36 @@ body {
   width: 700px;
 }
 
+.container p {
+  font-size: 18px;
+  color: gray;
+}
+
+.container h2 {
+  font-size: 20px;
+  color: black;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
 @media(max-width: 992px) {
   .container {
     width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
   }
 }
