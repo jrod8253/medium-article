@@ -1,0 +1,21 @@
+body {
+  display: block;
+}
+
+.banner {
+  background-image: url(https://unsplash.com/photos/AnBKV3nlIZg);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
